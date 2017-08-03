@@ -1,10 +1,11 @@
 import React from 'react'
+import {IndexLink} from 'react-router'
 
 class test extends React.Component{
     render(){
         return(
             <div>
-                <a href="/">back_2</a>
+                <IndexLink to="/" activeClassName="active">home</IndexLink>
             </div>
         )
     }

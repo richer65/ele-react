@@ -11,7 +11,6 @@ import MenuIcon from 'material-ui-icons/Menu';
 
 const styleSheet = createStyleSheet('ButtonAppBar', {
   root: {
-    marginTop: 30,
     width: '100%',
   },
   flex: {

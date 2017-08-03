@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
 import ReactDom from 'react-dom';
 import Nav from '../components/nav.jsx';
+import List, { ListItem, ListItemIcon, ListItemText } from 'material-ui/List';
 import {Link} from 'react-router'
+import ListInit from '../components/lists.jsx'
+
 class Index extends Component {
     render() {
         return (
             <div>
                 <Nav></Nav>
-                <ul role="nav">
-                    <li><Link to="/Test1">Test1</Link></li>
-                    <li><Link to="/Test2">Test2</Link></li>
-                </ul>
+                <ListInit></ListInit>
                 {this.props.children}
             </div>
         )
