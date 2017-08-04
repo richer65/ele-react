@@ -6,7 +6,7 @@ class Index extends Component{
     render(){
         return(
            <div>
-               {title}
+                <p>login here</p>
            </div>
         )
     }
