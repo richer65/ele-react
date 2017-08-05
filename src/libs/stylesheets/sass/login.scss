@@ -1,0 +1,28 @@
+$darkGlass : #333C4A;
+$lightGlass : #495664;
+$bgYellow : #F6F7D3;
+$bgRice : #F8FCEB;
+$bgWhite: #FFFFFF;
+
+$image: url('../../images/login.png');
+
+
+body {  
+    background: -webkit-radial-gradient($bgWhite 15%, transparent 16%), -webkit-radial-gradient($bgYellow 15%, transparent 16%), $bgRice;
+    background: radial-gradient($bgWhite 15%, transparent 16%), radial-gradient($bgYellow 15%, transparent 16%), $bgRice;
+    background-position: 0 0, 60px 60px;
+    background-size: 24px 24px;
+}
+
+.image{
+    width: 100%;
+    position: relative;
+    max-width: 600px;
+    left: 50%;
+    margin-top:10%; 
+    transform: translateX(-50%);
+    img{
+        width: 100%;
+        height: auto
+    }
+}
